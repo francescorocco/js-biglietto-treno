@@ -10,7 +10,7 @@ L’output del prezzo finale va messo fuori in forma umana (con massimo due deci
 const nameUser = prompt('Gentilmente inserisca il suo nome');
 console.log(nameUser);
 
-const ageUser = prompt('Gentilmente inserisca la sua età');
+const ageUser = parseInt (prompt('Gentilmente inserisca la sua età'));
 console.log(ageUser);
 
 
@@ -34,5 +34,6 @@ ticketCost = ticketCost.toFixed(2);
 console.log(ticketCost);
 
 document.getElementById('prezzo').innerHTML= 'Il prezzo del biglietto è di: ' + ticketCost + ' € ' ;
+
 
 
